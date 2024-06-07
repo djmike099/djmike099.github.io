@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Carro Arduino</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="flexboxgrid-6.3.1/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/estilos-slider.css">
+	<link rel="stylesheet" href="css/nivo-slider.css">
+  <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript">
+		$(window).on('load', function(){
+			$('#slider').nivoSlider();
+		});
+	</script>
+  </head>
+  <body>
+    <div class="row main-container middle-xs center-xs">
+      <div class="col-md-8 col-sm-10 col-xs-11 col-lg-8">
+        <div class="box">
+          <div class="card animated fadeInUp">
+            <header class="color-fondo">
+        		    <input type="checkbox" id="btn-menu">
+        		        <label for="btn-menu"><img src="img/menu.png" alt="" width="30" height="30"></label>
+        		          <nav class="menu">
+        			             <ul>
+                    				<li><a href="index.html">Inicio</a></li>
+                    				<li><a href="equipo.html">Nuestro Equipo</a></li>
+                    				<li><a href="galeria.html">Galeria</a></li>
+                    				<li><a href="contacto.html">Contacto</a></li>
+                    			</ul>
+        		           </nav>
+        	     </header>
+            <article class="body animated fadeInUp">
+              <header class="text-center">
+                <img src="img/nezeel.jpg" widtht="100" height="76"  alt="logo arduino">
+              <h1 class="red-text IndieFlower titulo tresd animated shake delay-2">Carro a control Bluetooth con Arduino</h1>
+                  </header>
+            </article>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 slider-wrapper theme-mi-slider" id="caja-slider">
+           	<div id="slider" class="nivoSlider tamaños">
+           	<img src="img/slider/arduino.jpg" alt="">
+           	<img src="img/slider/1.jpg" alt="">
+           	<img src="img/slider/2.jpg" alt="">
+            <img src="img/slider/3.jpg" alt="">
+           	</div>
+           	</div>
+        </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

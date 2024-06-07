@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="flexboxgrid-6.3.1/css/flexboxgrid.min.css">
+  </head>
+  <body>
+    <div class="row main-container middle-xs center-xs">
+      <div class="col-md-8 col-sm-10 col-xs-11 col-lg-8">
+        <div class="box">
+          <div class="card animated fadeInUp">
+            <header class="color-fondo">
+        		    <input type="checkbox" id="btn-menu">
+        		        <label for="btn-menu"><img src="img/menu.png" alt="" width="30" height="30"></label>
+        		          <nav class="menu">
+        			             <ul>
+                    				<li><a href="index.html">Inicio</a></li>
+                    				<li><a href="equipo.html">Nuestro Equipo</a></li>
+                    				<li><a href="galeria.html">Galeria</a></li>
+                    				<li><a href="contacto.html">Contacto</a></li>
+                    			</ul>
+        		           </nav>
+        	     </header>
+            <article class="body animated fadeInUp">
+              <header class="text-center">
+                <img src="img/nezeel.jpg" widtht="100" height="76"  alt="logo arduino">
+              <h1 class="red-text IndieFlower titulo tresd animated shake delay-2">Contacto</h1>
+                  </header>
+            </article>
+
+            <form action="enviar.php" method="post">
+              <input type="text" name="Nombre" placeholder="Nombre"
+               required>
+              <input type="text" name="Correo" placeholder="Correo"
+              required>
+              <input type="text" name="Telefono" placeholder="Teléfono"
+              required>
+              <textarea name="Mensaje" rows="8" cols="80" placeholder="Escriba aqui su mensaje"
+              required></textarea>
+              <input type="submit" name="" value="Enviar" id="btn-enviar">
+            </form>
+            <br>
+            <br>
+          </div>
+        </div>
+        </div>
+    </div>
+  </body>
+</html>
